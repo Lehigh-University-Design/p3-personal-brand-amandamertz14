@@ -1,0 +1,38 @@
+.top-bar{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display:flex;
+    justify-content: space-around;
+    background-color: #FFCD4C;
+    box-shadow: 0 2px 4px #022232(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+
+   
+
+}
+
+.top-bar a{
+
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#022232;
+    text-decoration: none;
+    font-size: 35px;
+    align-items: center;
+
+    img{
+        width: 65;
+        float: left;
+        margin-right: .5em;
+       
+    }
+
+
+}
+
+a:hover{
+ color: #009D69;
+}
