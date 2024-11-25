@@ -1,4 +1,4 @@
-.top-bar{
+.top-bar {
     position:fixed;
     width: 100%;
     top: 0;
@@ -13,7 +13,7 @@
 
 }
 
-.top-bar a{
+.top-bar a {
 
     font-family: "Limelight", sans-serif;
     font-weight: 400;
@@ -33,6 +33,6 @@
 
 }
 
-a:hover{
+a:hover {
  color: #009D69;
 }

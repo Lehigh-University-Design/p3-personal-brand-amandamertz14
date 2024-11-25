@@ -1,4 +1,4 @@
-:root{
+:root {
     --background-color: #FFFCF7;
     --background-box-color: #022232;
     --border-color: #FFD772;
@@ -12,20 +12,20 @@ h1 {
     font-size: 72px;
 }
 
-h2{
+h2 {
     font-family: "Limelight", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: var(--background-color);
 }
 
-.flex-container{
+.flex-container {
     margin: 0px;
     text-decoration: none;
     display:block;
@@ -39,11 +39,11 @@ body{
    
 }
 
-.flex-container a{
+.flex-container a {
     color:#022232;
 }
 
-.flex-box{
+.flex-box {
     text-decoration:none;
     background-color: #022232;
     color:#FFF4CF;
