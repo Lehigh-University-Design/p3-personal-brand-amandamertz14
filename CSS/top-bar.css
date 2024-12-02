@@ -9,12 +9,14 @@ h1 {
     font-family: "Notable", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 72px;
+    font-size: 60px;
+    letter-spacing: 20px;
 }
 
 h2 {
     font-family: "Limelight", sans-serif;
     font-weight: 400;
+    font-size: 60px;
     font-style: normal;
 }
 
@@ -25,23 +27,6 @@ body {
     background-color: var(--background-color);
 }
 
-.flex-container {
-    margin: 0px;
-    text-decoration: none;
-    display:block;
-    opacity: 100%;
-    justify-content: space-around;
-    border: 10px;
-    border-color: #FFD772;
-    width: 70%;
-
-   
-   
-}
-
-.flex-container a {
-    color:#022232;
-}
 
 .flex-box {
     text-decoration:none;
@@ -56,13 +41,35 @@ body {
     margin: 10px;
     padding: 30px;
 
+}
+
+.flex-box-title {
+    border:2rem;
+    justify-content: center;
+    text-decoration:none;
+    background-color: #022232;
+    color:#FFF4CF;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 30px;
 
 }
 
 
+.flex-container {
+    display: flex;
+    margin: 100px;
+    display:block;
+    justify-content: center;
+    border: 10px;
+    border-color: #FFD772;
+    margin-bottom: 0px;
 
-
-
+   
+   
+}
 
 
 
@@ -94,10 +101,10 @@ body {
     align-items: center;
 
     img{
-        width: 65;
+        width: 40;
         float: left;
         margin-right: .5em;
-       
+    
     }
 
 

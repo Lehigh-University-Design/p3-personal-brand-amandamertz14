@@ -1,0 +1,34 @@
+.flex-container-parties {
+    color:#022232;
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+
+}
+
+.flex-box-parties{
+    width: 1000px;
+    height: 300px;
+    background-color: #022232;
+    color:#FFF4CF;
+    padding: 30px;
+    justify-content: center;
+
+   
+}
+
+.decoration1{
+    width: 155.99px;
+    height: 151.84px;
+    top: 15.68px;
+    left: 17.14px;
+
+}
+
+.decoration2{
+    width: 155.99px;
+    height: 151.84px;
+    top: 356.5px;
+    left: 1067.87px;
+
+}

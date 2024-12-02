@@ -4,16 +4,16 @@
   <defs>
     <style>
       .st0 {
-        fill: #fff;
+        fill: #FEBB10;
       }
 
       .st0, .st1 {
-        stroke: #000;
+        stroke: none;
         stroke-miterlimit: 10;
       }
 
       .st1 {
-        fill: none;
+        fill: #FFD772;
       }
     </style>
   </defs>

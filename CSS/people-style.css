@@ -1,0 +1,26 @@
+.flex-container-people {
+    color:#022232;
+    display: flex;
+    margin: 100px;
+   
+
+}
+
+.flex-people{
+
+    text-decoration:none;
+    background-color: #022232;
+    margin: 20px;
+    color:#FFF4CF;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    padding: 30px;
+
+    img{
+        width: 400px;
+        align-items: baseline;
+    }
+
+
+}

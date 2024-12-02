@@ -1,0 +1,57 @@
+.flex-container {
+    display: flex;
+    margin: 100px;
+    display:block;
+    justify-content: center;
+    border: 10px;
+    border-color: #FFD772;
+    margin-bottom: 0px;
+
+   
+   
+}
+
+.flex-container-p{
+    color:#022232;
+    display: flex;
+    margin: 100px;
+    margin-top: 0px;
+  
+
+}
+
+.flex-box-p{
+    text-decoration:none;
+    background-color: #022232;
+    color:#FFF4CF;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    padding: 30px;
+
+}
+
+.flex-container a {
+    color:#022232;
+    justify-content: center;
+    display: flex;
+}
+
+
+.flex-box-ip {
+    text-decoration:none;
+    background-color: #022232;
+    color:#FFF4CF;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 30px;
+
+    .img{
+        width: 300px;
+        padding: 0px;
+    }
+
+}
+
