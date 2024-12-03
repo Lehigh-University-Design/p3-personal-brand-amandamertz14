@@ -6,11 +6,26 @@
 
 }
 
+
+
+.flex-container-NC {
+    background-color:#FFD772;
+    display: flex;
+    margin: 100px;
+    margin-bottom: 0px;
+   
+
+}
+
+
 .flex-people{
+    
+    border-color: #FFD772;
 
     text-decoration:none;
     background-color: #022232;
-    margin: 20px;
+   
+    margin-top: 0px;
     color:#FFF4CF;
     text-align: left;
     font-weight: 400;
@@ -24,3 +39,4 @@
 
 
 }
+

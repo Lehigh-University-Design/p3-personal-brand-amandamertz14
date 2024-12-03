@@ -1,5 +1,5 @@
 :root {
-    --background-color: #FFFCF7;
+    --background-color: #fff9ed;
     --background-box-color: #022232;
     --border-color: #FFD772;
     --body-text-color:#FFF4CF;
@@ -81,10 +81,11 @@ body {
     top: 0;
     right: 0;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #FFCD4C;
     box-shadow: 0 2px 4px #022232(0, 0, 0, 0.2);
     margin-bottom: 2em;
+    align-items: center;
 
    
 
@@ -98,12 +99,14 @@ body {
     color:#022232;
     text-decoration: none;
     font-size: 35px;
-    align-items: center;
+    
+    justify-content: flex-end;
+  
 
     img{
-        width: 40;
+        width: 40px;
         float: left;
-        margin-right: .5em;
+        margin: .5em;
     
     }
 
