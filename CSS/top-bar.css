@@ -52,7 +52,6 @@ body {
     text-align: center;
     font-weight: 400;
     font-style: normal;
-    margin: 10px;
     padding: 30px;
 
 }
@@ -63,11 +62,8 @@ body {
     margin: 100px;
     display:block;
     justify-content: center;
-    border-color: #FFD772;
+    border: 12px solid #FFD772;
     margin-bottom: 0px;
-
-   
-   
 }
 
 

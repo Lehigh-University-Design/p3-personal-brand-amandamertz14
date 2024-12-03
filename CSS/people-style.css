@@ -2,9 +2,9 @@
     color:#022232;
     display: flex;
     margin: 100px;
+    flex-wrap: wrap;
+    flex-direction:row;
     border: 5px #FFD772;
-   
-
 }
 
 
@@ -14,13 +14,43 @@
     display: flex;
     margin: 100px;
     margin-bottom: 0px;
+}
+
+.flex-people-image{
+    
+    border-color: #FFD772;
+    flex:0 1 calc(50% - 30px);
+    text-decoration:none;
+    background-color: #022232;
    
+    margin-top: 0px;
+    color:#FFF4CF;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+
+    a img:last-child {
+        display: none;  
+      }
+      a:hover img:last-child {
+        display: block;  
+      }
+      a:hover img:first-child {
+        display: none;  
+      }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
 
 }
 
 
 .flex-people{
-    
+    flex:0 1 calc(50% - 30px);
     border-color: #FFD772;
 
     text-decoration:none;
