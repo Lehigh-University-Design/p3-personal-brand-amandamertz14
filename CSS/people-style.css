@@ -2,32 +2,70 @@
     color:#022232;
     display: flex;
     margin: 100px;
-    flex-wrap: wrap;
-    flex-direction:row;
-    border: 5px #FFD772;
+    margin-top: 10px;
+    justify-content: center;
+    border: 12px solid #FFD772;
+   
+
+    
+}
+.flex-container-images {
+    color:#022232;
+    display: flex;
+    margin: 100px;
+    margin-bottom: 10px;
+    justify-content: center;
+   
+   
+
+    
 }
 
 
 
 .flex-container-NC {
+    border: 12px solid #FFD772;
     background-color:#FFD772;
     display: flex;
     margin: 100px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.flex-NC {
+    border-color: #FFD772;
+
+    text-decoration:none;
+    background-color: #022232;
+    margin-top: 0px;
+    color:#FFF4CF;
+    text-align: left;
+    font-weight: 400;
+    padding: 30px;
+    font-size: 20px;
+    img{
+        width: 100%;
+    }
+
 }
 
 .flex-people-image{
+
+    height: 400px;
     
     border-color: #FFD772;
-    flex:0 1 calc(50% - 30px);
     text-decoration:none;
     background-color: #022232;
-   
+    justify-content: center;
     margin-top: 0px;
     color:#FFF4CF;
     text-align: left;
     font-weight: 400;
     font-style: normal;
+    border: 12px solid #FFD772;
+    
+   
+   
 
     a img:last-child {
         display: none;  
@@ -41,8 +79,8 @@
 
     img {
         display: block;
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 400px;
     }
 
 
@@ -50,7 +88,7 @@
 
 
 .flex-people{
-    flex:0 1 calc(50% - 30px);
+    
     border-color: #FFD772;
 
     text-decoration:none;
@@ -61,7 +99,9 @@
     text-align: left;
     font-weight: 400;
     font-style: normal;
+    font-size: 25px;
     padding: 30px;
+    line-height: 140%;
 
     img{
         width: 400px;

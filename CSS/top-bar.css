@@ -16,7 +16,7 @@ h1 {
 h2 {
     font-family: "Limelight", sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 45px;
     font-style: normal;
 }
 
@@ -29,16 +29,17 @@ body {
 
 
 .flex-box {
+
     text-decoration:none;
     background-color: #022232;
     color:#FFF4CF;
     border: 10px;
     border-color: #FFD772;
-    text-align: right;
+    text-align: left;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-size: 20px;
     font-style: normal;
-    margin: 10px;
     padding: 30px;
 
 }
@@ -58,12 +59,46 @@ body {
 
 
 .flex-container {
-    display: flex;
+    display: block;
     margin: 100px;
-    display:block;
     justify-content: center;
     border: 12px solid #FFD772;
     margin-bottom: 0px;
+}
+
+.flex-container-main{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    border: 12px solid #FFD772;
+   
+
+
+}
+
+.flex-main {
+    background-color: #022232;
+    color:#FFF4CF;
+    padding: 30px;
+    font-size: 25px;
+    
+    
+    p {
+        line-height: 150%;
+    }
+
+    h1{
+        color:#FFD772;
+    }
+
+    img {
+        align-items: baseline;
+
+    }
+
+   
+
+    
 }
 
 

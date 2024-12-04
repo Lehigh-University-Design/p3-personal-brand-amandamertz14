@@ -1,21 +1,27 @@
-.flex-container {
+.flex-container-a {
     display: flex;
     margin: 100px;
     display:block;
     justify-content: center;
-    border: 10px;
-    border-color: #FFD772;
+    border:12px solid #FFD772;
+    border-bottom-width: 0px;
     margin-bottom: 0px;
 
    
    
 }
 
+
+
 .flex-container-p{
     color:#022232;
     display: flex;
     margin: 100px;
     margin-top: 0px;
+    border: 12px solid #FFD772;
+    border-top-width: 0px;
+
+
   
 
 }
@@ -28,6 +34,8 @@
     font-weight: 400;
     font-style: normal;
     padding: 30px;
+    font-size: 25px;
+    line-height: 150%;;
 
 }
 
@@ -35,6 +43,7 @@
     color:#022232;
     justify-content: center;
     display: flex;
+ 
 }
 
 
@@ -45,12 +54,13 @@
     text-align: center;
     font-weight: 400;
     font-style: normal;
-    margin: 10px;
+
     padding: 30px;
 
-    .img{
-        width: 300px;
+    img {
+        width: 100%;
         padding: 0px;
+
     }
 
 }
