@@ -117,8 +117,7 @@ body {
     box-shadow: 0 2px 4px #022232(0, 0, 0, 0.2);
     margin-bottom: 2em;
     align-items: center;
-
-   
+    z-index: 99999999999999;
 
 }
 
