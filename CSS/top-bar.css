@@ -11,6 +11,7 @@ h1 {
     font-style: normal;
     font-size: 60px;
     letter-spacing: 20px;
+    width: 100%;
 }
 
 h2 {
@@ -67,8 +68,8 @@ body {
 }
 
 .flex-container-main{
+    margin-top: 100px;
     display: flex;
-    margin: 100px;
     justify-content: center;
     border: 12px solid #FFD772;
    

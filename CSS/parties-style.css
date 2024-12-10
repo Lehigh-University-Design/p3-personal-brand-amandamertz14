@@ -6,6 +6,56 @@
 
 }
 
+.container{
+    position: relative;
+    justify-content: center;
+    color:#022232;
+    display: flex;
+    margin: 100px;
+    border: 12px solid #FFD772;
+   
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #022232;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: #FFF4CF;
+    position: absolute;
+    font-size: 25px;
+    line-height: 150%;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    align-items: center;
+
+}
+
+
+
 .flex-box-parties{
     width: 1000px;
     height: 300px;
