@@ -66,3 +66,15 @@
 
 }
 
+@media only screen and (max-width: 768px){
+
+    .flex-box-p{
+        font-size: 10px;
+    }
+
+   
+   
+
+}
+
+

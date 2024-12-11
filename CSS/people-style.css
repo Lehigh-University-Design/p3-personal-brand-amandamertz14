@@ -111,3 +111,20 @@
 
 }
 
+@media only screen and (max-width: 768px){
+
+    .flex-people{
+        font-size:10px;
+    
+    }
+
+   
+
+    .flex-NC{
+        font-size: 8px;
+    }
+
+   
+
+}
+
